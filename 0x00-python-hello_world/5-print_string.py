@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 str = "Holberton School"
-# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+print(f"{str}{str}{str}")
+str9 = str[:9]
+print(f"{str9}")
