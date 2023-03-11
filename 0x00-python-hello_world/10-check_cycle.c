@@ -4,19 +4,19 @@
 
 /**
  * check_cycle - checks if a linked list has a cycle
- * @llist: pointer to head of list
+ * @list: pointer to head of list
  * Return: 0 or 1
  */
-int check_cycle(const listint_t llist)
+int check_cycle(const listint_t list)
 {
   listint_t *head;
 	listint_t *tail;
 
-	if (llist == NULL)
+	if (list == NULL)
 		return (0);
 
-	head = llist;
-	tail = llist;
+	head = list;
+	tail = list;
 
 	while (tail != NULL && tail->next != NULL)
 	{
