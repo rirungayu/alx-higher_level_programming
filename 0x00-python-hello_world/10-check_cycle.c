@@ -7,7 +7,7 @@
  * @list: pointer to head of list
  * Return: 0 or 1
  */
-int check_cycle(const listint_t list)
+int check_cycle(listint_t list)
 {
   listint_t *head;
 	listint_t *tail;
