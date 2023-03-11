@@ -12,11 +12,11 @@ int check_cycle(const listint_t llist)
   listint_t *head;
 	listint_t *tail;
 
-	if (list == NULL)
+	if (llist == NULL)
 		return (0);
 
-	head = list;
-	tail = list;
+	head = llist;
+	tail = llist;
 
 	while (tail != NULL && tail->next != NULL)
 	{
